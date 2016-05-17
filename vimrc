@@ -27,6 +27,7 @@ Plugin 'bronson/vim-trailing-whitespace'	" Whitespace
 Plugin 'tpope/vim-fugitive'               " Fugitive, for git
 Plugin 'godlygeek/tabular'                " Tabs
 Plugin 'ctrlpvim/ctrlp.vim'               " CtrlP Fuzzy Finder
+Plugin 'airblade/vim-gitgutter'           " git-gutter
 
 "
 " Syntax highlighting
