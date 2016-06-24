@@ -1,6 +1,9 @@
 " =====================================================
 " Vundle
 " =====================================================
+
+set shell=bash
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -24,7 +27,6 @@ Plugin 'fatih/vim-go'                     " Go
 "
 Plugin 'bling/vim-airline'			          " Status line
 Plugin 'bronson/vim-trailing-whitespace'	" Whitespace
-Plugin 'tpope/vim-fugitive'               " Fugitive, for git
 Plugin 'godlygeek/tabular'                " Tabs
 Plugin 'ctrlpvim/ctrlp.vim'               " CtrlP Fuzzy Finder
 Plugin 'airblade/vim-gitgutter'           " git-gutter
@@ -43,6 +45,7 @@ Plugin 'tpope/vim-haml'                   " Haml/Sass/Scss
 Plugin 'qbbr/vim-twig'                    " Twig
 Plugin 'elixir-lang/vim-elixir'           " Elixir
 Plugin 'b4b4r07/vim-hcl'                  " HCL
+Plugin 'ElmCast/elm-vim'                  " Elm
 
 "
 " Color schemes

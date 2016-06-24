@@ -71,6 +71,7 @@ alias p="git pull --rebase"
 alias P="git push"
 alias d="git diff"
 alias bx="bundle exec"
+alias bxr="bundle exec rake"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -112,3 +113,5 @@ unsetopt share_history
 alias reload-php="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php56.plist && launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php56.plist"
 
 source ~/.secrets.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
