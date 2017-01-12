@@ -29,7 +29,6 @@ Plugin 'bling/vim-airline'			          " Status line
 Plugin 'bronson/vim-trailing-whitespace'	" Whitespace
 Plugin 'godlygeek/tabular'                " Tabs
 Plugin 'ctrlpvim/ctrlp.vim'               " CtrlP Fuzzy Finder
-Plugin 'airblade/vim-gitgutter'           " git-gutter
 
 "
 " Syntax highlighting
@@ -69,6 +68,7 @@ filetype plugin indent on    " required
 colorscheme dracula
 
 " Set the font
+set macligatures
 set guifont=Dejavu_Sans_Mono_for_Powerline:h15
 
 " Configure vim-airline
@@ -160,3 +160,4 @@ set iskeyword+=\-
 
 set textwidth=0
 set wrapmargin=0
+set nowrap

@@ -90,5 +90,3 @@ function fish_prompt --description 'Write out the prompt'
 
 	set_color normal
 end
-
-fzf_key_bindings
